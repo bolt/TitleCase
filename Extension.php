@@ -31,6 +31,11 @@ class Extension extends \Bolt\BaseExtension
 
     }
 
+    public function getName()
+    {
+        return "Title Case";
+    }
+
     function initialize()
     {
 
