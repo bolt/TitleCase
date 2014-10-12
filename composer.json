@@ -1,5 +1,5 @@
 {
-    "name": "bolt/TitleCase",
+    "name": "bolt/titlecase",
     "description": "A extension to add a 'titlecase' filter to your templates.",
     "type": "bolt-extension",
     "keywords": [],
