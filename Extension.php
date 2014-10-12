@@ -1,7 +1,7 @@
 <?php
 // Testing Snippets extension for Bolt
 
-namespace TitleCase;
+namespace Bolt\Extension\Bolt\TitleCase;
 
 use Bolt\Extensions\Snippets\Location as SnippetLocation;
 
