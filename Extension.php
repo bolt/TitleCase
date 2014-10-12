@@ -3,8 +3,6 @@
 
 namespace Bolt\Extension\Bolt\TitleCase;
 
-use Bolt\Extensions\Snippets\Location as SnippetLocation;
-
 class Extension extends \Bolt\BaseExtension
 {
 
@@ -15,15 +13,14 @@ class Extension extends \Bolt\BaseExtension
         return "Title Case";
     }
 
-    function initialize()
+    public function initialize()
     {
 
         $this->addTwigFilter('titlecase', 'titleCaseFilter');
 
     }
 
-
-    function titleCaseFilter($str)
+    public function titleCaseFilter($str)
     {
 
         $str = $this->titleCase($str);
@@ -31,7 +28,6 @@ class Extension extends \Bolt\BaseExtension
         return new \Twig_Markup($str, 'UTF-8');
 
     }
-
 
     private function titleCase($str)
     {
