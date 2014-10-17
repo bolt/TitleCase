@@ -1,6 +1,6 @@
 {
-    "name": "bolt/TitleCase",
-    "description": "",
+    "name": "bolt/titlecase",
+    "description": "A extension to add a 'titlecase' filter to your templates.",
     "type": "bolt-extension",
     "keywords": [],
     "require": {
@@ -18,12 +18,7 @@
             "init.php"
         ],
         "psr-4": {
-            "TitleCase\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.7.*"
+            "Bolt\\Extension\\Bolt\\TitleCase\\": ""
         }
     }
 }
